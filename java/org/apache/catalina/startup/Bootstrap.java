@@ -466,6 +466,7 @@ public final class Bootstrap {
                 t.printStackTrace();
                 return;
             }
+
             daemon = bootstrap;
         } else {
             // When running as a service the call to stop will be on a new
